@@ -1,0 +1,77 @@
+*
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+div#divLogotipoSistema
+{
+    background-color: rgba(219, 210, 210, 0.973);
+    height: 20%;
+}
+
+span#spanAuxiliarDeAlinhamentoVertical
+{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img#imgLogotipoSistema
+{
+    height: 80%;
+    vertical-align: middle;
+}
+
+img#imgIconeUsuario
+{
+    width: 100px;
+}
+
+h1
+{
+    color: rgb(14, 73, 150);
+    background-color: #eeeeee;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 10px solid rgba(219, 210, 210, 0.973);
+    border-right: 10px solid rgba(219, 210, 210, 0.973);
+    border-top: 2px solid rgba(219, 210, 210, 0.973);
+    border-bottom: 2px solid rgba(219, 210, 210, 0.973);
+    border-radius: 30px;
+
+}
+
+div#mensagemDeErro
+{
+    background-color: #d40000;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: #ffffff;
+}
