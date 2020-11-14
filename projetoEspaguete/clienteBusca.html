@@ -7,17 +7,54 @@
     <body>
 
         <header>
-            <div>
-                <h1>EspagueteFood</h1>
+            <div id="divLogotipoSistema">
+                <a href="">
+                    <span id="spanAuxiliarDeAlinhamentoVertical"></span>
+                <img src="imagens/espaguetedavovoicone.jpg" id="imgLogotipoSistema">
+                </a>
             </div>
-            <div>
+            <div id="usuarioLogado">
                 Olá Nome do Usuário
                 <br/>
-                <img src="imagens/carrinho.jpg">
+                <img src="imagens/carrinho.jpg" id="imgIconeCarrinho">
             </div>
         </header>
         <br/><br/>
         <!-- Cabeçalho - Fim -->
+
+
+        <div>
+            <h1>É Hora de rangar!</h1>
+            <form method="POST" action="">
+                <fieldset>
+                    <input type="text" name="busca" placeholder="Buscar por..."/>
+                    <input type="button" value="Procurar"/>
+                </fieldset>
+            </form>
+        </div>
+
+        <div id="divCategoriasComidaGeral">
+            <div id="divCategoriasComidaOpcao">
+                <a href="#">
+                    <img src="imagens/espaguete.jpg" id="imgEspaguete"/><br/>
+                    <span>Espaguetes</span>
+                </a>
+            </div>
+
+            <div id="divCategoriasComidaOpcao">
+                <a href="#">
+                    <img src="imagens/tropeiro.jpg" id="imgTropeiro"/><br/>
+                    <span>Tropeiro</span>
+                </a>
+            </div>
+
+            <div id="divCategoriasComidaOpcao">
+                <a href="#">
+                    <img src="imagens/estrogonof.jpg" id="imgEstrogonof"/><br/>
+                    <span>Estrogonof</span>
+                </a>
+            </div>
+        </div>
 
         <div>
             <h1>Resultados</h1>
@@ -30,17 +67,17 @@
             </fieldset>
         </div>
 
-        <div>
+        <div><br/>
 
             <div>
                 <a href="#">
-                    <img src="imagens/espaguetedavovoicone.jpg"/><br/>
-                    <span>Nome do Restaurante</span><br/>
+                    <img src="imagens/espaguetedavovoicone.jpg"/><br/><br/>
+                    <span id="restauranteOpcaoTitulo">Nome do Restaurante</span><br/>
                     <span>Categoria de Comida</span><br/>
                     <span>Tempo média de entrega: 40m</span><br/>
                     <span>Taxa de entrega: R$3,00</span><br/>
                 </a>
-            </div>
+            </div><br/>
 
             <input type="button" value="Voltar"/>
         </div>
