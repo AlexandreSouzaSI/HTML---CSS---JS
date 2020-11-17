@@ -3,6 +3,16 @@
         <meta charset="UTF-8"/>
         <title>EspagueteFood</title>
         <link rel="stylesheet" type="text/css" href="css/estiloSistema.css"/>
+        <script>
+            function isNumberKey(evt){
+                var charCode = (evt.which) ? evt.which : event.keyCode;
+
+                if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+
+                return true;
+            }
+        </script>
     </head>
     <body>
 
@@ -51,13 +61,13 @@
             </div><br/><br/>
 
             <div>
-                <span>Cartão de Crédito</span><br/><br/>
-                <input type="text" name="cartao"/>
+                <span id="restauranteOpcaoTitulo">Cartão de Crédito</span><br/><br/>
+                <input type="text" id="inputLargo" onkeypress="return isNumberKey(event)">
             </div><br/>
 
             <div>
-                <input type="button" value="Enviar pedido"/><br/>
-                <input type="button" value="Voltar"/>
+                <input type="button" value="Enviar pedido" onClick="location.href='clientePedido.html';"/><br/>
+                <input type="button" value="Voltar" onClick="location.href='clienteHome.html';"/><br/>
              </div>
 
             

@@ -49,6 +49,12 @@ select#categoria
     border-radius: 20px;
 }
 
+select#selectConheceuSite
+{
+    width: 200px;
+    border-radius: 20px;
+}
+
 body
 {
     text-align: center;
